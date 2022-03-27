@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+::-webkit-input-placeholder {
+    color:    rgb(0, 0, 0);
+    display: flex;
+
+ }
+.login_form{
+    width: 350px;
+    height: 55px;
+    border:none;
+    border-radius:16px;
+    outline: none;
+    font-size: 14px;
+    color:#333;
+    text-indent: 10px;
+    margin-bottom: 24px;
+}
+.sign_button{
+    width: 350px;
+    height: 55px;
+    border:none;
+    background: #1D72F1;
+    border-radius: 16px;
+    color:#FFF;
+    font-size: 18px;
+
+}
+.signing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+width: 106px;
+height: 48px;
+font-family: 'monseratt';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color:rgb(0, 0, 0);
+line-height: 24px;
+padding-bottom:24px;
+margin: auto;
+}
+form{
+    list-style-type: none;
+}
+.reset{
+    color: #0026ff;
+    text-decoration: none;
+    margin: auto;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 400px;
+    opacity: 1.6;
+    border-radius: 42px;
+    background-color: rgba(204, 204, 204, 0.8);
+    margin-top:290px;
+
+}
+.wrap{
+    margin:25px;
+}
+.msg{
+    border: 1px solid red;
+    color: #000;
+    padding: 10px;
+    background-color: #FFF;
+    text-align: center;
+    font-weight: 700;
+}
+.none{
+    display: none;
+}
+.backs{
+    color:#FFF;
+    font-size: 24px;
+}
+.s{
+    margin-top:150px;
+}
+@media(max-width:900px) {
+    body{
+        background:none;
+    }
+    .wrapper{
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s{
+        margin-top:300px;
+    }
+}
+@media(max-width:1400px) {
+    body{
+        background:none;
+
+    }
+    .wrapper{
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s{
+        margin-top:100px;
+    }
+}
+.alert{
+    height: 50px;
+    border: 1px solid red;
+    color: #FFF;
+    margin: 10px;
+    border-radius: 0px;
+}
+.header{
+    background-color: #697bdf;
+    color:#FFF;
+    padding: 10px;
+    display: flex;
+
+}
+.header a{
+    color:#FFF;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-end;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    box-sizing: border-box;
+}
